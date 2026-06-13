@@ -25,3 +25,18 @@ button {
 button:hover {
     transform: scale(1.05);
 }
+.progress-container {
+    width: 250px;
+    height: 25px;
+    background-color: #ddd;
+    border-radius: 20px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+#progressBar {
+    width: 0%;
+    height: 100%;
+    background-color: #4caf50;
+    transition: width 0.3s;
+}
