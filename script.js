@@ -16,3 +16,4 @@ button.addEventListener("click", () => {
         plant.textContent = "🌸";
     }
 });
+const progressBar = document.getElementById("progressBar");
